@@ -6,8 +6,8 @@ library("data.table") # efficient caclulations/summaries in data.table format
 library("ggplot2") # plotting library
 library("patchwork") # construct layout for plots
 library("ggbeeswarm") # add beeswarm plot to ggplot2
-library("report")
-library("emmeans")
+library("report") # report test statistics for some functions
+library("emmeans")  # calculate marginals means for post-hoc tests
 
 # alternatively load everything in one line:
 # lapply(X =  c("readxl", "data.table", "ggplot2", "patchwork", "ggbeeswarm"), FUN = library, character.only=T)
